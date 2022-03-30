@@ -20,11 +20,11 @@
 }
 
 .modal-content{
-    background-color: aliceblue;
+    background-color: rgb(61, 75, 87);
     margin: 5% auto;
     padding: 5rem;
-    width: 1000px;
-    height: 1000px;
+    width: 650px;
+    height: 650px;
     animation: zoom-in 1s;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .movie-poster-modal{
-    width: 400px;
+    width: 350px;
 }
 
 .movie-poster{
@@ -52,7 +52,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    color: #151515;
+    color: #09090c;
 }
 
 .movie-card {
