@@ -20,7 +20,7 @@
 }
 
 .modal-content{
-    background-color: rgb(61, 75, 87);
+    background-color: rgb(86, 92, 97);
     margin: 5% auto;
     padding: 5rem;
     width: 650px;
@@ -52,7 +52,7 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    color: #09090c;
+    color: #181825;
 }
 
 .movie-card {
