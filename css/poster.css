@@ -33,7 +33,6 @@
     100%{transform: scale(1);}
 }
 
-
 .closeBtn{
     float: right;
     cursor: pointer;
@@ -74,7 +73,6 @@ html {
     100% {left: 0;}
 }
 
-
 .movie-poster-container img {
     margin-top: 2rem;
     height: 500px;
@@ -96,7 +94,6 @@ html {
     padding: 0.5rem;
     border-radius: 5px;
 }
-
 
 .movie-duration {
     margin-left: 1rem;
@@ -129,6 +126,54 @@ html {
   
 }
 
+.carousel {
+    max-width: 400px;
+    margin: 2rem auto;
+    position: relative;   
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item-hidden {
+    display: none;
+}
+
+.carousel .carousel__item--visible {
+    display: block;
+    animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+
+}
+.carousel .carousel__actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 40x;
+    width: 40px;
+    border:0%; 
+    background-color: rgba(22, 123, 148, 0.555);
+    font-size: 2rem;
+    color: aliceblue;
+    margin: 0.5rem;
+}
+
 
 .movie-info-actions {
     font-size:1.1rem;
@@ -137,7 +182,7 @@ html {
 .movie-info-actions ul {
     list-style: none;
     margin-top: 1rem;
-}
+}    
 
 .movie-info-actions ul li {
     display: inline-block;
@@ -162,7 +207,7 @@ html {
 }
 
 footer {
-    margin-top: 2rem;
+    margin-top: 18rem;
     text-align: center;
     color: #777;
 }
@@ -173,7 +218,7 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
